@@ -13,6 +13,8 @@
 		A9AE4A251D48ACB700A3B17E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9AE4A231D48ACB700A3B17E /* Main.storyboard */; };
 		A9AE4A271D48ACB700A3B17E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9AE4A261D48ACB700A3B17E /* Assets.xcassets */; };
 		A9AE4A2A1D48ACB700A3B17E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9AE4A281D48ACB700A3B17E /* LaunchScreen.storyboard */; };
+		A9AE4A351D48AF8500A3B17E /* NSObject+YLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AE4A341D48AF8500A3B17E /* NSObject+YLModel.m */; };
+		A9AE4A381D48BC0900A3B17E /* YLClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AE4A371D48BC0900A3B17E /* YLClassInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		A9AE4A261D48ACB700A3B17E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9AE4A291D48ACB700A3B17E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9AE4A2B1D48ACB700A3B17E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9AE4A331D48AF8500A3B17E /* NSObject+YLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YLModel.h"; sourceTree = "<group>"; };
+		A9AE4A341D48AF8500A3B17E /* NSObject+YLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YLModel.m"; sourceTree = "<group>"; };
+		A9AE4A361D48BC0900A3B17E /* YLClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLClassInfo.h; sourceTree = "<group>"; };
+		A9AE4A371D48BC0900A3B17E /* YLClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLClassInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		A9AE4A191D48ACB700A3B17E /* YLKit */ = {
 			isa = PBXGroup;
 			children = (
+				A9AE4A311D48AF2B00A3B17E /* Base */,
+				A9AE4A321D48AF2B00A3B17E /* Model */,
 				A9AE4A1D1D48ACB700A3B17E /* AppDelegate.h */,
 				A9AE4A1E1D48ACB700A3B17E /* AppDelegate.m */,
 				A9AE4A201D48ACB700A3B17E /* ViewController.h */,
@@ -77,6 +85,24 @@
 				A9AE4A1B1D48ACB700A3B17E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9AE4A311D48AF2B00A3B17E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A9AE4A321D48AF2B00A3B17E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9AE4A331D48AF8500A3B17E /* NSObject+YLModel.h */,
+				A9AE4A341D48AF8500A3B17E /* NSObject+YLModel.m */,
+				A9AE4A361D48BC0900A3B17E /* YLClassInfo.h */,
+				A9AE4A371D48BC0900A3B17E /* YLClassInfo.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +176,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9AE4A381D48BC0900A3B17E /* YLClassInfo.m in Sources */,
 				A9AE4A221D48ACB700A3B17E /* ViewController.m in Sources */,
 				A9AE4A1F1D48ACB700A3B17E /* AppDelegate.m in Sources */,
+				A9AE4A351D48AF8500A3B17E /* NSObject+YLModel.m in Sources */,
 				A9AE4A1C1D48ACB700A3B17E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
