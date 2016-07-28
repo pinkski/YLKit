@@ -19,17 +19,17 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (nullable instancetype)modelWithDictionary:(NSDictionary *)dictionary;
 
-+ (BOOL)modelSetWithJSON:(id)json;
+- (BOOL)modelSetWithJSON:(id)json;
 
-+ (BOOL)modelSetWithDictionary:(NSDictionary *)dictionary;
+- (BOOL)modelSetWithDictionary:(NSDictionary *)dictionary;
 
-+ (nullable id)modelToJSONObjct;
+- (nullable id)modelToJSONObjct;
 
-+ (nullable NSData *)modelToJSONData;
+- (nullable NSData *)modelToJSONData;
 
-+ (nullable NSString *)modelToJSONString;
+- (nullable NSString *)modelToJSONString;
 
-+ (nullable id)modelCopy;
+- (nullable id)modelCopy;
 
 - (void)modelEncodeWithCoder:(NSCoder *)aCoder;
 
