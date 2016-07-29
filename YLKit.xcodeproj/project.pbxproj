@@ -20,6 +20,16 @@
 		A9CF83261D49E37E00F7C1B2 /* YLMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CF83251D49E37E00F7C1B2 /* YLMemoryCache.m */; };
 		A9CF83291D49E76E00F7C1B2 /* YLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CF83281D49E76E00F7C1B2 /* YLCache.m */; };
 		A9CF832D1D49F1DB00F7C1B2 /* YLDispatchQueuePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CF832C1D49F1DB00F7C1B2 /* YLDispatchQueuePool.m */; };
+		A9CF83311D4AFD7700F7C1B2 /* YLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CF83301D4AFD7700F7C1B2 /* YLImage.m */; };
+		A9CF83341D4B026900F7C1B2 /* YLImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CF83331D4B026900F7C1B2 /* YLImageCoder.m */; };
+		A9CF83371D4B034B00F7C1B2 /* YLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CF83361D4B034B00F7C1B2 /* YLAnimatedImageView.m */; };
+		A9CF833A1D4B114D00F7C1B2 /* YLFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CF83391D4B114D00F7C1B2 /* YLFrameImage.m */; };
+		A9CF833D1D4B119200F7C1B2 /* YLSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CF833C1D4B119200F7C1B2 /* YLSpriteSheetImage.m */; };
+		A9CF83411D4B194E00F7C1B2 /* NSBundle+YLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CF83401D4B194E00F7C1B2 /* NSBundle+YLAdd.m */; };
+		A9E33CBB1D4B327D003010E9 /* NSString+YLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E33CBA1D4B327D003010E9 /* NSString+YLAdd.m */; };
+		A9E33CBE1D4B55A1003010E9 /* NSData+YLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E33CBD1D4B55A1003010E9 /* NSData+YLAdd.m */; };
+		A9E33CC11D4B5770003010E9 /* NSNumber+YLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E33CC01D4B5770003010E9 /* NSNumber+YLAdd.m */; };
+		A9E33CC81D4B58F4003010E9 /* UIDevice+YLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E33CC71D4B58F4003010E9 /* UIDevice+YLAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +57,27 @@
 		A9CF83281D49E76E00F7C1B2 /* YLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLCache.m; sourceTree = "<group>"; };
 		A9CF832B1D49F1DB00F7C1B2 /* YLDispatchQueuePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDispatchQueuePool.h; sourceTree = "<group>"; };
 		A9CF832C1D49F1DB00F7C1B2 /* YLDispatchQueuePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDispatchQueuePool.m; sourceTree = "<group>"; };
+		A9CF832F1D4AFD7700F7C1B2 /* YLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLImage.h; sourceTree = "<group>"; };
+		A9CF83301D4AFD7700F7C1B2 /* YLImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLImage.m; sourceTree = "<group>"; };
+		A9CF83321D4B026900F7C1B2 /* YLImageCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLImageCoder.h; sourceTree = "<group>"; };
+		A9CF83331D4B026900F7C1B2 /* YLImageCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLImageCoder.m; sourceTree = "<group>"; };
+		A9CF83351D4B034B00F7C1B2 /* YLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAnimatedImageView.h; sourceTree = "<group>"; };
+		A9CF83361D4B034B00F7C1B2 /* YLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAnimatedImageView.m; sourceTree = "<group>"; };
+		A9CF83381D4B114D00F7C1B2 /* YLFrameImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLFrameImage.h; sourceTree = "<group>"; };
+		A9CF83391D4B114D00F7C1B2 /* YLFrameImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLFrameImage.m; sourceTree = "<group>"; };
+		A9CF833B1D4B119200F7C1B2 /* YLSpriteSheetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSpriteSheetImage.h; sourceTree = "<group>"; };
+		A9CF833C1D4B119200F7C1B2 /* YLSpriteSheetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSpriteSheetImage.m; sourceTree = "<group>"; };
+		A9CF833F1D4B194E00F7C1B2 /* NSBundle+YLAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+YLAdd.h"; sourceTree = "<group>"; };
+		A9CF83401D4B194E00F7C1B2 /* NSBundle+YLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+YLAdd.m"; sourceTree = "<group>"; };
+		A9CF83421D4B2AF400F7C1B2 /* YLKitMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLKitMacro.h; sourceTree = "<group>"; };
+		A9E33CB91D4B327D003010E9 /* NSString+YLAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YLAdd.h"; sourceTree = "<group>"; };
+		A9E33CBA1D4B327D003010E9 /* NSString+YLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YLAdd.m"; sourceTree = "<group>"; };
+		A9E33CBC1D4B55A1003010E9 /* NSData+YLAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+YLAdd.h"; sourceTree = "<group>"; };
+		A9E33CBD1D4B55A1003010E9 /* NSData+YLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+YLAdd.m"; sourceTree = "<group>"; };
+		A9E33CBF1D4B5770003010E9 /* NSNumber+YLAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+YLAdd.h"; sourceTree = "<group>"; };
+		A9E33CC01D4B5770003010E9 /* NSNumber+YLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+YLAdd.m"; sourceTree = "<group>"; };
+		A9E33CC61D4B58F4003010E9 /* UIDevice+YLAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+YLAdd.h"; sourceTree = "<group>"; };
+		A9E33CC71D4B58F4003010E9 /* UIDevice+YLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+YLAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +113,7 @@
 				A9AE4A311D48AF2B00A3B17E /* Base */,
 				A9AE4A321D48AF2B00A3B17E /* Model */,
 				A9CF831D1D49D55400F7C1B2 /* Cache */,
+				A9CF832E1D4AFD6300F7C1B2 /* Image */,
 				A9CF832A1D49F1A500F7C1B2 /* Utility */,
 				A9AE4A1D1D48ACB700A3B17E /* AppDelegate.h */,
 				A9AE4A1E1D48ACB700A3B17E /* AppDelegate.m */,
@@ -107,6 +139,9 @@
 		A9AE4A311D48AF2B00A3B17E /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				A9CF83421D4B2AF400F7C1B2 /* YLKitMacro.h */,
+				A9E33CC51D4B58E7003010E9 /* UIKit */,
+				A9CF833E1D4B193F00F7C1B2 /* Foundation */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -144,6 +179,47 @@
 				A9CF832C1D49F1DB00F7C1B2 /* YLDispatchQueuePool.m */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		A9CF832E1D4AFD6300F7C1B2 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				A9CF832F1D4AFD7700F7C1B2 /* YLImage.h */,
+				A9CF83301D4AFD7700F7C1B2 /* YLImage.m */,
+				A9CF83381D4B114D00F7C1B2 /* YLFrameImage.h */,
+				A9CF83391D4B114D00F7C1B2 /* YLFrameImage.m */,
+				A9CF833B1D4B119200F7C1B2 /* YLSpriteSheetImage.h */,
+				A9CF833C1D4B119200F7C1B2 /* YLSpriteSheetImage.m */,
+				A9CF83321D4B026900F7C1B2 /* YLImageCoder.h */,
+				A9CF83331D4B026900F7C1B2 /* YLImageCoder.m */,
+				A9CF83351D4B034B00F7C1B2 /* YLAnimatedImageView.h */,
+				A9CF83361D4B034B00F7C1B2 /* YLAnimatedImageView.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		A9CF833E1D4B193F00F7C1B2 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				A9CF833F1D4B194E00F7C1B2 /* NSBundle+YLAdd.h */,
+				A9CF83401D4B194E00F7C1B2 /* NSBundle+YLAdd.m */,
+				A9E33CB91D4B327D003010E9 /* NSString+YLAdd.h */,
+				A9E33CBA1D4B327D003010E9 /* NSString+YLAdd.m */,
+				A9E33CBC1D4B55A1003010E9 /* NSData+YLAdd.h */,
+				A9E33CBD1D4B55A1003010E9 /* NSData+YLAdd.m */,
+				A9E33CBF1D4B5770003010E9 /* NSNumber+YLAdd.h */,
+				A9E33CC01D4B5770003010E9 /* NSNumber+YLAdd.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		A9E33CC51D4B58E7003010E9 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A9E33CC61D4B58F4003010E9 /* UIDevice+YLAdd.h */,
+				A9E33CC71D4B58F4003010E9 /* UIDevice+YLAdd.m */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,14 +295,24 @@
 			files = (
 				A9AE4A381D48BC0900A3B17E /* YLClassInfo.m in Sources */,
 				A9AE4A221D48ACB700A3B17E /* ViewController.m in Sources */,
+				A9E33CC81D4B58F4003010E9 /* UIDevice+YLAdd.m in Sources */,
+				A9E33CC11D4B5770003010E9 /* NSNumber+YLAdd.m in Sources */,
+				A9E33CBB1D4B327D003010E9 /* NSString+YLAdd.m in Sources */,
+				A9CF833A1D4B114D00F7C1B2 /* YLFrameImage.m in Sources */,
 				A9AE4A1F1D48ACB700A3B17E /* AppDelegate.m in Sources */,
 				A9CF83201D49D59000F7C1B2 /* YLKVStorage.m in Sources */,
 				A9CF832D1D49F1DB00F7C1B2 /* YLDispatchQueuePool.m in Sources */,
+				A9E33CBE1D4B55A1003010E9 /* NSData+YLAdd.m in Sources */,
+				A9CF833D1D4B119200F7C1B2 /* YLSpriteSheetImage.m in Sources */,
+				A9CF83311D4AFD7700F7C1B2 /* YLImage.m in Sources */,
 				A9CF83261D49E37E00F7C1B2 /* YLMemoryCache.m in Sources */,
+				A9CF83371D4B034B00F7C1B2 /* YLAnimatedImageView.m in Sources */,
 				A9CF83291D49E76E00F7C1B2 /* YLCache.m in Sources */,
 				A9AE4A351D48AF8500A3B17E /* NSObject+YLModel.m in Sources */,
 				A9AE4A1C1D48ACB700A3B17E /* main.m in Sources */,
+				A9CF83341D4B026900F7C1B2 /* YLImageCoder.m in Sources */,
 				A9CF83231D49E05300F7C1B2 /* YLDiskCache.m in Sources */,
+				A9CF83411D4B194E00F7C1B2 /* NSBundle+YLAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
