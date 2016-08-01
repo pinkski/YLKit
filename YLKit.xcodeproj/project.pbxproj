@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A956DC621D4F306F009F72F3 /* UIImage+YLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC611D4F306F009F72F3 /* UIImage+YLAdd.m */; };
+		A956DC651D4F33C4009F72F3 /* YLCGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC641D4F33C4009F72F3 /* YLCGUtilities.m */; };
+		A956DC691D4F34D7009F72F3 /* UIView+YLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC681D4F34D7009F72F3 /* UIView+YLAdd.m */; };
 		A9AE4A1C1D48ACB700A3B17E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AE4A1B1D48ACB700A3B17E /* main.m */; };
 		A9AE4A1F1D48ACB700A3B17E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AE4A1E1D48ACB700A3B17E /* AppDelegate.m */; };
 		A9AE4A221D48ACB700A3B17E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AE4A211D48ACB700A3B17E /* ViewController.m */; };
@@ -33,6 +36,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A956DC601D4F306F009F72F3 /* UIImage+YLAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YLAdd.h"; sourceTree = "<group>"; };
+		A956DC611D4F306F009F72F3 /* UIImage+YLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YLAdd.m"; sourceTree = "<group>"; };
+		A956DC641D4F33C4009F72F3 /* YLCGUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLCGUtilities.m; sourceTree = "<group>"; };
+		A956DC661D4F33DC009F72F3 /* YLCGUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCGUtilities.h; sourceTree = "<group>"; };
+		A956DC671D4F34D7009F72F3 /* UIView+YLAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YLAdd.h"; sourceTree = "<group>"; };
+		A956DC681D4F34D7009F72F3 /* UIView+YLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YLAdd.m"; sourceTree = "<group>"; };
 		A9AE4A171D48ACB700A3B17E /* YLKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9AE4A1B1D48ACB700A3B17E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9AE4A1D1D48ACB700A3B17E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,6 +100,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A956DC631D4F32FC009F72F3 /* Quartz */ = {
+			isa = PBXGroup;
+			children = (
+				A956DC661D4F33DC009F72F3 /* YLCGUtilities.h */,
+				A956DC641D4F33C4009F72F3 /* YLCGUtilities.m */,
+			);
+			path = Quartz;
+			sourceTree = "<group>";
+		};
 		A9AE4A0E1D48ACB700A3B17E = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				A9CF83421D4B2AF400F7C1B2 /* YLKitMacro.h */,
+				A956DC631D4F32FC009F72F3 /* Quartz */,
 				A9E33CC51D4B58E7003010E9 /* UIKit */,
 				A9CF833E1D4B193F00F7C1B2 /* Foundation */,
 			);
@@ -218,6 +237,10 @@
 			children = (
 				A9E33CC61D4B58F4003010E9 /* UIDevice+YLAdd.h */,
 				A9E33CC71D4B58F4003010E9 /* UIDevice+YLAdd.m */,
+				A956DC601D4F306F009F72F3 /* UIImage+YLAdd.h */,
+				A956DC611D4F306F009F72F3 /* UIImage+YLAdd.m */,
+				A956DC671D4F34D7009F72F3 /* UIView+YLAdd.h */,
+				A956DC681D4F34D7009F72F3 /* UIView+YLAdd.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -296,10 +319,12 @@
 				A9AE4A381D48BC0900A3B17E /* YLClassInfo.m in Sources */,
 				A9AE4A221D48ACB700A3B17E /* ViewController.m in Sources */,
 				A9E33CC81D4B58F4003010E9 /* UIDevice+YLAdd.m in Sources */,
+				A956DC651D4F33C4009F72F3 /* YLCGUtilities.m in Sources */,
 				A9E33CC11D4B5770003010E9 /* NSNumber+YLAdd.m in Sources */,
 				A9E33CBB1D4B327D003010E9 /* NSString+YLAdd.m in Sources */,
 				A9CF833A1D4B114D00F7C1B2 /* YLFrameImage.m in Sources */,
 				A9AE4A1F1D48ACB700A3B17E /* AppDelegate.m in Sources */,
+				A956DC621D4F306F009F72F3 /* UIImage+YLAdd.m in Sources */,
 				A9CF83201D49D59000F7C1B2 /* YLKVStorage.m in Sources */,
 				A9CF832D1D49F1DB00F7C1B2 /* YLDispatchQueuePool.m in Sources */,
 				A9E33CBE1D4B55A1003010E9 /* NSData+YLAdd.m in Sources */,
@@ -309,6 +334,7 @@
 				A9CF83371D4B034B00F7C1B2 /* YLAnimatedImageView.m in Sources */,
 				A9CF83291D49E76E00F7C1B2 /* YLCache.m in Sources */,
 				A9AE4A351D48AF8500A3B17E /* NSObject+YLModel.m in Sources */,
+				A956DC691D4F34D7009F72F3 /* UIView+YLAdd.m in Sources */,
 				A9AE4A1C1D48ACB700A3B17E /* main.m in Sources */,
 				A9CF83341D4B026900F7C1B2 /* YLImageCoder.m in Sources */,
 				A9CF83231D49E05300F7C1B2 /* YLDiskCache.m in Sources */,
