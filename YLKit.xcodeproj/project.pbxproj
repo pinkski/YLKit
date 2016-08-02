@@ -10,6 +10,9 @@
 		A956DC621D4F306F009F72F3 /* UIImage+YLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC611D4F306F009F72F3 /* UIImage+YLAdd.m */; };
 		A956DC651D4F33C4009F72F3 /* YLCGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC641D4F33C4009F72F3 /* YLCGUtilities.m */; };
 		A956DC691D4F34D7009F72F3 /* UIView+YLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC681D4F34D7009F72F3 /* UIView+YLAdd.m */; };
+		A956DC6C1D4F3B7A009F72F3 /* YLImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC6B1D4F3B7A009F72F3 /* YLImageCache.m */; };
+		A956DC6F1D4F4E8F009F72F3 /* YLWebImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC6E1D4F4E8F009F72F3 /* YLWebImageOperation.m */; };
+		A956DC721D4F52DC009F72F3 /* YLWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC711D4F52DC009F72F3 /* YLWebImageManager.m */; };
 		A9AE4A1C1D48ACB700A3B17E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AE4A1B1D48ACB700A3B17E /* main.m */; };
 		A9AE4A1F1D48ACB700A3B17E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AE4A1E1D48ACB700A3B17E /* AppDelegate.m */; };
 		A9AE4A221D48ACB700A3B17E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AE4A211D48ACB700A3B17E /* ViewController.m */; };
@@ -42,6 +45,12 @@
 		A956DC661D4F33DC009F72F3 /* YLCGUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCGUtilities.h; sourceTree = "<group>"; };
 		A956DC671D4F34D7009F72F3 /* UIView+YLAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YLAdd.h"; sourceTree = "<group>"; };
 		A956DC681D4F34D7009F72F3 /* UIView+YLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YLAdd.m"; sourceTree = "<group>"; };
+		A956DC6A1D4F3B7A009F72F3 /* YLImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLImageCache.h; sourceTree = "<group>"; };
+		A956DC6B1D4F3B7A009F72F3 /* YLImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLImageCache.m; sourceTree = "<group>"; };
+		A956DC6D1D4F4E8F009F72F3 /* YLWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLWebImageOperation.h; sourceTree = "<group>"; };
+		A956DC6E1D4F4E8F009F72F3 /* YLWebImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLWebImageOperation.m; sourceTree = "<group>"; };
+		A956DC701D4F52DC009F72F3 /* YLWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLWebImageManager.h; sourceTree = "<group>"; };
+		A956DC711D4F52DC009F72F3 /* YLWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLWebImageManager.m; sourceTree = "<group>"; };
 		A9AE4A171D48ACB700A3B17E /* YLKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9AE4A1B1D48ACB700A3B17E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9AE4A1D1D48ACB700A3B17E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -213,6 +222,12 @@
 				A9CF83331D4B026900F7C1B2 /* YLImageCoder.m */,
 				A9CF83351D4B034B00F7C1B2 /* YLAnimatedImageView.h */,
 				A9CF83361D4B034B00F7C1B2 /* YLAnimatedImageView.m */,
+				A956DC6A1D4F3B7A009F72F3 /* YLImageCache.h */,
+				A956DC6B1D4F3B7A009F72F3 /* YLImageCache.m */,
+				A956DC6D1D4F4E8F009F72F3 /* YLWebImageOperation.h */,
+				A956DC6E1D4F4E8F009F72F3 /* YLWebImageOperation.m */,
+				A956DC701D4F52DC009F72F3 /* YLWebImageManager.h */,
+				A956DC711D4F52DC009F72F3 /* YLWebImageManager.m */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -319,6 +334,7 @@
 				A9AE4A381D48BC0900A3B17E /* YLClassInfo.m in Sources */,
 				A9AE4A221D48ACB700A3B17E /* ViewController.m in Sources */,
 				A9E33CC81D4B58F4003010E9 /* UIDevice+YLAdd.m in Sources */,
+				A956DC6F1D4F4E8F009F72F3 /* YLWebImageOperation.m in Sources */,
 				A956DC651D4F33C4009F72F3 /* YLCGUtilities.m in Sources */,
 				A9E33CC11D4B5770003010E9 /* NSNumber+YLAdd.m in Sources */,
 				A9E33CBB1D4B327D003010E9 /* NSString+YLAdd.m in Sources */,
@@ -329,6 +345,8 @@
 				A9CF832D1D49F1DB00F7C1B2 /* YLDispatchQueuePool.m in Sources */,
 				A9E33CBE1D4B55A1003010E9 /* NSData+YLAdd.m in Sources */,
 				A9CF833D1D4B119200F7C1B2 /* YLSpriteSheetImage.m in Sources */,
+				A956DC6C1D4F3B7A009F72F3 /* YLImageCache.m in Sources */,
+				A956DC721D4F52DC009F72F3 /* YLWebImageManager.m in Sources */,
 				A9CF83311D4AFD7700F7C1B2 /* YLImage.m in Sources */,
 				A9CF83261D49E37E00F7C1B2 /* YLMemoryCache.m in Sources */,
 				A9CF83371D4B034B00F7C1B2 /* YLAnimatedImageView.m in Sources */,
