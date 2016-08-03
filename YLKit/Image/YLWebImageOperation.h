@@ -13,7 +13,7 @@
 #import <YLKit/YLWebImageManager.h>
 #else
 #import "YLImageCache.h"
-//#import "YLWebImageManager.h"
+#import "YLWebImageManager.h"
 #endif
 
 NS_ASSUME_NONNULL_BEGIN
@@ -24,18 +24,18 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, strong, readonly) NSURLResponse     *response; ///< The response for request.
 @property (nullable, nonatomic, strong, readonly) YLImageCache      *cache;    ///< The image cache.
 @property (nonatomic, strong, readonly)           NSString          *cacheKey; ///< The image cache key.
-@property (nonatomic, readonly)                   YLWebImageOptions options;   ///< The operation's option.
+@property (nonatomic, readonly)                   YYWebImageOptions options;   ///< The operation's option.
 
 @property (nonatomic) BOOL shouldUseCredentialStorage;
 @property (nullable, nonatomic, strong) NSURLCredential *credential;
 
 - (instancetype)initWithRequest:(NSURLRequest *)request
-                        options:(YLWebImageOptions)options
+                        options:(YYWebImageOptions)options
                           cache:(nullable YLImageCache *)cache
                        cacheKey:(nullable NSString *)cacheKey
-                       progress:(nullable YLWebImageProgressBlock)progress
-                      transform:(nullable YLWebImageTransformBlock)transform
-                     completion:(nullable YLWebImageCompletionBlock)completion NS_DESIGNATED_INITIALIZER;
+                       progress:(nullable YYWebImageProgressBlock)progress
+                      transform:(nullable YYWebImageTransformBlock)transform
+                     completion:(nullable YYWebImageCompletionBlock)completion NS_DESIGNATED_INITIALIZER;
 
 - (instancetype)init UNAVAILABLE_ATTRIBUTE;
 + (instancetype)new UNAVAILABLE_ATTRIBUTE;

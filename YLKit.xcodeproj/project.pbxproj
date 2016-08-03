@@ -13,6 +13,14 @@
 		A956DC6C1D4F3B7A009F72F3 /* YLImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC6B1D4F3B7A009F72F3 /* YLImageCache.m */; };
 		A956DC6F1D4F4E8F009F72F3 /* YLWebImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC6E1D4F4E8F009F72F3 /* YLWebImageOperation.m */; };
 		A956DC721D4F52DC009F72F3 /* YLWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC711D4F52DC009F72F3 /* YLWebImageManager.m */; };
+		A956DC751D5038B6009F72F3 /* UIApplication+YLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC741D5038B6009F72F3 /* UIApplication+YLAdd.m */; };
+		A956DC781D50395D009F72F3 /* NSArray+YLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC771D50395D009F72F3 /* NSArray+YLAdd.m */; };
+		A956DC7B1D503A1D009F72F3 /* NSObject+YLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC7A1D503A1D009F72F3 /* NSObject+YLAdd.m */; };
+		A956DC7E1D503B58009F72F3 /* YLWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC7D1D503B58009F72F3 /* YLWeakProxy.m */; };
+		A956DC811D5051AC009F72F3 /* YLReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC801D5051AC009F72F3 /* YLReachability.m */; };
+		A956DC841D50528F009F72F3 /* YLKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC831D50528F009F72F3 /* YLKeychain.m */; };
+		A956DC871D50981D009F72F3 /* YLTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC861D50981D009F72F3 /* YLTimer.m */; };
+		A956DC8A1D509966009F72F3 /* YLTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC891D509966009F72F3 /* YLTransaction.m */; };
 		A9AE4A1C1D48ACB700A3B17E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AE4A1B1D48ACB700A3B17E /* main.m */; };
 		A9AE4A1F1D48ACB700A3B17E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AE4A1E1D48ACB700A3B17E /* AppDelegate.m */; };
 		A9AE4A221D48ACB700A3B17E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AE4A211D48ACB700A3B17E /* ViewController.m */; };
@@ -51,6 +59,22 @@
 		A956DC6E1D4F4E8F009F72F3 /* YLWebImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLWebImageOperation.m; sourceTree = "<group>"; };
 		A956DC701D4F52DC009F72F3 /* YLWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLWebImageManager.h; sourceTree = "<group>"; };
 		A956DC711D4F52DC009F72F3 /* YLWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLWebImageManager.m; sourceTree = "<group>"; };
+		A956DC731D5038B6009F72F3 /* UIApplication+YLAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+YLAdd.h"; sourceTree = "<group>"; };
+		A956DC741D5038B6009F72F3 /* UIApplication+YLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+YLAdd.m"; sourceTree = "<group>"; };
+		A956DC761D50395D009F72F3 /* NSArray+YLAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+YLAdd.h"; sourceTree = "<group>"; };
+		A956DC771D50395D009F72F3 /* NSArray+YLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+YLAdd.m"; sourceTree = "<group>"; };
+		A956DC791D503A1D009F72F3 /* NSObject+YLAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YLAdd.h"; sourceTree = "<group>"; };
+		A956DC7A1D503A1D009F72F3 /* NSObject+YLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YLAdd.m"; sourceTree = "<group>"; };
+		A956DC7C1D503B58009F72F3 /* YLWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLWeakProxy.h; sourceTree = "<group>"; };
+		A956DC7D1D503B58009F72F3 /* YLWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLWeakProxy.m; sourceTree = "<group>"; };
+		A956DC7F1D5051AC009F72F3 /* YLReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLReachability.h; sourceTree = "<group>"; };
+		A956DC801D5051AC009F72F3 /* YLReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLReachability.m; sourceTree = "<group>"; };
+		A956DC821D50528F009F72F3 /* YLKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLKeychain.h; sourceTree = "<group>"; };
+		A956DC831D50528F009F72F3 /* YLKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLKeychain.m; sourceTree = "<group>"; };
+		A956DC851D50981D009F72F3 /* YLTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTimer.h; sourceTree = "<group>"; };
+		A956DC861D50981D009F72F3 /* YLTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTimer.m; sourceTree = "<group>"; };
+		A956DC881D509966009F72F3 /* YLTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTransaction.h; sourceTree = "<group>"; };
+		A956DC891D509966009F72F3 /* YLTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTransaction.m; sourceTree = "<group>"; };
 		A9AE4A171D48ACB700A3B17E /* YLKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9AE4A1B1D48ACB700A3B17E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9AE4A1D1D48ACB700A3B17E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -167,9 +191,9 @@
 			isa = PBXGroup;
 			children = (
 				A9CF83421D4B2AF400F7C1B2 /* YLKitMacro.h */,
-				A956DC631D4F32FC009F72F3 /* Quartz */,
-				A9E33CC51D4B58E7003010E9 /* UIKit */,
 				A9CF833E1D4B193F00F7C1B2 /* Foundation */,
+				A9E33CC51D4B58E7003010E9 /* UIKit */,
+				A956DC631D4F32FC009F72F3 /* Quartz */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -205,6 +229,16 @@
 			children = (
 				A9CF832B1D49F1DB00F7C1B2 /* YLDispatchQueuePool.h */,
 				A9CF832C1D49F1DB00F7C1B2 /* YLDispatchQueuePool.m */,
+				A956DC7C1D503B58009F72F3 /* YLWeakProxy.h */,
+				A956DC7D1D503B58009F72F3 /* YLWeakProxy.m */,
+				A956DC7F1D5051AC009F72F3 /* YLReachability.h */,
+				A956DC801D5051AC009F72F3 /* YLReachability.m */,
+				A956DC821D50528F009F72F3 /* YLKeychain.h */,
+				A956DC831D50528F009F72F3 /* YLKeychain.m */,
+				A956DC851D50981D009F72F3 /* YLTimer.h */,
+				A956DC861D50981D009F72F3 /* YLTimer.m */,
+				A956DC881D509966009F72F3 /* YLTransaction.h */,
+				A956DC891D509966009F72F3 /* YLTransaction.m */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -243,6 +277,10 @@
 				A9E33CBD1D4B55A1003010E9 /* NSData+YLAdd.m */,
 				A9E33CBF1D4B5770003010E9 /* NSNumber+YLAdd.h */,
 				A9E33CC01D4B5770003010E9 /* NSNumber+YLAdd.m */,
+				A956DC761D50395D009F72F3 /* NSArray+YLAdd.h */,
+				A956DC771D50395D009F72F3 /* NSArray+YLAdd.m */,
+				A956DC791D503A1D009F72F3 /* NSObject+YLAdd.h */,
+				A956DC7A1D503A1D009F72F3 /* NSObject+YLAdd.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -256,6 +294,8 @@
 				A956DC611D4F306F009F72F3 /* UIImage+YLAdd.m */,
 				A956DC671D4F34D7009F72F3 /* UIView+YLAdd.h */,
 				A956DC681D4F34D7009F72F3 /* UIView+YLAdd.m */,
+				A956DC731D5038B6009F72F3 /* UIApplication+YLAdd.h */,
+				A956DC741D5038B6009F72F3 /* UIApplication+YLAdd.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -336,6 +376,7 @@
 				A9E33CC81D4B58F4003010E9 /* UIDevice+YLAdd.m in Sources */,
 				A956DC6F1D4F4E8F009F72F3 /* YLWebImageOperation.m in Sources */,
 				A956DC651D4F33C4009F72F3 /* YLCGUtilities.m in Sources */,
+				A956DC871D50981D009F72F3 /* YLTimer.m in Sources */,
 				A9E33CC11D4B5770003010E9 /* NSNumber+YLAdd.m in Sources */,
 				A9E33CBB1D4B327D003010E9 /* NSString+YLAdd.m in Sources */,
 				A9CF833A1D4B114D00F7C1B2 /* YLFrameImage.m in Sources */,
@@ -350,11 +391,18 @@
 				A9CF83311D4AFD7700F7C1B2 /* YLImage.m in Sources */,
 				A9CF83261D49E37E00F7C1B2 /* YLMemoryCache.m in Sources */,
 				A9CF83371D4B034B00F7C1B2 /* YLAnimatedImageView.m in Sources */,
+				A956DC751D5038B6009F72F3 /* UIApplication+YLAdd.m in Sources */,
 				A9CF83291D49E76E00F7C1B2 /* YLCache.m in Sources */,
+				A956DC7E1D503B58009F72F3 /* YLWeakProxy.m in Sources */,
 				A9AE4A351D48AF8500A3B17E /* NSObject+YLModel.m in Sources */,
 				A956DC691D4F34D7009F72F3 /* UIView+YLAdd.m in Sources */,
+				A956DC841D50528F009F72F3 /* YLKeychain.m in Sources */,
+				A956DC7B1D503A1D009F72F3 /* NSObject+YLAdd.m in Sources */,
+				A956DC781D50395D009F72F3 /* NSArray+YLAdd.m in Sources */,
 				A9AE4A1C1D48ACB700A3B17E /* main.m in Sources */,
+				A956DC8A1D509966009F72F3 /* YLTransaction.m in Sources */,
 				A9CF83341D4B026900F7C1B2 /* YLImageCoder.m in Sources */,
+				A956DC811D5051AC009F72F3 /* YLReachability.m in Sources */,
 				A9CF83231D49E05300F7C1B2 /* YLDiskCache.m in Sources */,
 				A9CF83411D4B194E00F7C1B2 /* NSBundle+YLAdd.m in Sources */,
 			);
