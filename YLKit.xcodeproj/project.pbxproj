@@ -21,6 +21,9 @@
 		A956DC841D50528F009F72F3 /* YLKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC831D50528F009F72F3 /* YLKeychain.m */; };
 		A956DC871D50981D009F72F3 /* YLTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC861D50981D009F72F3 /* YLTimer.m */; };
 		A956DC8A1D509966009F72F3 /* YLTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = A956DC891D509966009F72F3 /* YLTransaction.m */; };
+		A983BBCE1D53393E004847E6 /* YLFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A983BBCD1D53393E004847E6 /* YLFPSLabel.m */; };
+		A983BBD11D534042004847E6 /* YLAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A983BBD01D534042004847E6 /* YLAsyncLayer.m */; };
+		A983BBD41D53411F004847E6 /* YLSentinel.m in Sources */ = {isa = PBXBuildFile; fileRef = A983BBD31D53411F004847E6 /* YLSentinel.m */; };
 		A9AE4A1C1D48ACB700A3B17E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AE4A1B1D48ACB700A3B17E /* main.m */; };
 		A9AE4A1F1D48ACB700A3B17E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AE4A1E1D48ACB700A3B17E /* AppDelegate.m */; };
 		A9AE4A221D48ACB700A3B17E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AE4A211D48ACB700A3B17E /* ViewController.m */; };
@@ -75,6 +78,12 @@
 		A956DC861D50981D009F72F3 /* YLTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTimer.m; sourceTree = "<group>"; };
 		A956DC881D509966009F72F3 /* YLTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTransaction.h; sourceTree = "<group>"; };
 		A956DC891D509966009F72F3 /* YLTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTransaction.m; sourceTree = "<group>"; };
+		A983BBCC1D53393E004847E6 /* YLFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLFPSLabel.h; sourceTree = "<group>"; };
+		A983BBCD1D53393E004847E6 /* YLFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLFPSLabel.m; sourceTree = "<group>"; };
+		A983BBCF1D534042004847E6 /* YLAsyncLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAsyncLayer.h; sourceTree = "<group>"; };
+		A983BBD01D534042004847E6 /* YLAsyncLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAsyncLayer.m; sourceTree = "<group>"; };
+		A983BBD21D53411F004847E6 /* YLSentinel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSentinel.h; sourceTree = "<group>"; };
+		A983BBD31D53411F004847E6 /* YLSentinel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSentinel.m; sourceTree = "<group>"; };
 		A9AE4A171D48ACB700A3B17E /* YLKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9AE4A1B1D48ACB700A3B17E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9AE4A1D1D48ACB700A3B17E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -142,10 +151,28 @@
 			path = Quartz;
 			sourceTree = "<group>";
 		};
+		A983BBCA1D5338C5004847E6 /* YLKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A983BBCB1D5338EF004847E6 /* other */,
+			);
+			path = YLKitDemo;
+			sourceTree = "<group>";
+		};
+		A983BBCB1D5338EF004847E6 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				A983BBCC1D53393E004847E6 /* YLFPSLabel.h */,
+				A983BBCD1D53393E004847E6 /* YLFPSLabel.m */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
 		A9AE4A0E1D48ACB700A3B17E = {
 			isa = PBXGroup;
 			children = (
 				A9AE4A191D48ACB700A3B17E /* YLKit */,
+				A983BBCA1D5338C5004847E6 /* YLKitDemo */,
 				A9AE4A181D48ACB700A3B17E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -239,6 +266,10 @@
 				A956DC861D50981D009F72F3 /* YLTimer.m */,
 				A956DC881D509966009F72F3 /* YLTransaction.h */,
 				A956DC891D509966009F72F3 /* YLTransaction.m */,
+				A983BBCF1D534042004847E6 /* YLAsyncLayer.h */,
+				A983BBD01D534042004847E6 /* YLAsyncLayer.m */,
+				A983BBD21D53411F004847E6 /* YLSentinel.h */,
+				A983BBD31D53411F004847E6 /* YLSentinel.m */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -376,6 +407,7 @@
 				A9E33CC81D4B58F4003010E9 /* UIDevice+YLAdd.m in Sources */,
 				A956DC6F1D4F4E8F009F72F3 /* YLWebImageOperation.m in Sources */,
 				A956DC651D4F33C4009F72F3 /* YLCGUtilities.m in Sources */,
+				A983BBD11D534042004847E6 /* YLAsyncLayer.m in Sources */,
 				A956DC871D50981D009F72F3 /* YLTimer.m in Sources */,
 				A9E33CC11D4B5770003010E9 /* NSNumber+YLAdd.m in Sources */,
 				A9E33CBB1D4B327D003010E9 /* NSString+YLAdd.m in Sources */,
@@ -384,6 +416,7 @@
 				A956DC621D4F306F009F72F3 /* UIImage+YLAdd.m in Sources */,
 				A9CF83201D49D59000F7C1B2 /* YLKVStorage.m in Sources */,
 				A9CF832D1D49F1DB00F7C1B2 /* YLDispatchQueuePool.m in Sources */,
+				A983BBCE1D53393E004847E6 /* YLFPSLabel.m in Sources */,
 				A9E33CBE1D4B55A1003010E9 /* NSData+YLAdd.m in Sources */,
 				A9CF833D1D4B119200F7C1B2 /* YLSpriteSheetImage.m in Sources */,
 				A956DC6C1D4F3B7A009F72F3 /* YLImageCache.m in Sources */,
@@ -404,6 +437,7 @@
 				A9CF83341D4B026900F7C1B2 /* YLImageCoder.m in Sources */,
 				A956DC811D5051AC009F72F3 /* YLReachability.m in Sources */,
 				A9CF83231D49E05300F7C1B2 /* YLDiskCache.m in Sources */,
+				A983BBD41D53411F004847E6 /* YLSentinel.m in Sources */,
 				A9CF83411D4B194E00F7C1B2 /* NSBundle+YLAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
