@@ -30,6 +30,7 @@
 		A990C34A1D5C5AC500CDA612 /* YLGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A990C3491D5C5AC500CDA612 /* YLGestureRecognizer.m */; };
 		A990C34D1D5C5B1F00CDA612 /* YLFileHash.m in Sources */ = {isa = PBXBuildFile; fileRef = A990C34C1D5C5B1F00CDA612 /* YLFileHash.m */; };
 		A990C3501D5C5BE700CDA612 /* CALayer+YLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A990C34F1D5C5BE700CDA612 /* CALayer+YLAdd.m */; };
+		A990C3551D5C619200CDA612 /* YLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A990C3541D5C619200CDA612 /* YLTableViewCell.m */; };
 		A9AE4A1C1D48ACB700A3B17E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AE4A1B1D48ACB700A3B17E /* main.m */; };
 		A9AE4A1F1D48ACB700A3B17E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AE4A1E1D48ACB700A3B17E /* AppDelegate.m */; };
 		A9AE4A221D48ACB700A3B17E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AE4A211D48ACB700A3B17E /* ViewController.m */; };
@@ -102,6 +103,8 @@
 		A990C34C1D5C5B1F00CDA612 /* YLFileHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLFileHash.m; sourceTree = "<group>"; };
 		A990C34E1D5C5BE700CDA612 /* CALayer+YLAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+YLAdd.h"; sourceTree = "<group>"; };
 		A990C34F1D5C5BE700CDA612 /* CALayer+YLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+YLAdd.m"; sourceTree = "<group>"; };
+		A990C3531D5C619200CDA612 /* YLTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTableViewCell.h; sourceTree = "<group>"; };
+		A990C3541D5C619200CDA612 /* YLTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTableViewCell.m; sourceTree = "<group>"; };
 		A9AE4A171D48ACB700A3B17E /* YLKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9AE4A1B1D48ACB700A3B17E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9AE4A1D1D48ACB700A3B17E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -184,6 +187,8 @@
 			children = (
 				A983BBCC1D53393E004847E6 /* YLFPSLabel.h */,
 				A983BBCD1D53393E004847E6 /* YLFPSLabel.m */,
+				A990C3531D5C619200CDA612 /* YLTableViewCell.h */,
+				A990C3541D5C619200CDA612 /* YLTableViewCell.m */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -440,6 +445,7 @@
 				A956DC651D4F33C4009F72F3 /* YLCGUtilities.m in Sources */,
 				A983BBD11D534042004847E6 /* YLAsyncLayer.m in Sources */,
 				A990C34D1D5C5B1F00CDA612 /* YLFileHash.m in Sources */,
+				A990C3551D5C619200CDA612 /* YLTableViewCell.m in Sources */,
 				A956DC871D50981D009F72F3 /* YLTimer.m in Sources */,
 				A9E33CC11D4B5770003010E9 /* NSNumber+YLAdd.m in Sources */,
 				A9E33CBB1D4B327D003010E9 /* NSString+YLAdd.m in Sources */,
